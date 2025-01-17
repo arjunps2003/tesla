@@ -1,0 +1,18 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "tesla.html",
+        "use": "@vercel/static"
+      },
+      {
+        "src": "tesla.css",
+        "use": "@vercel/static"
+      },
+      {
+        "src": "assets/**/*",
+        "use": "@vercel/static"
+      }
+    ]
+  }
+  
